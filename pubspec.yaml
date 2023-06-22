@@ -10,6 +10,7 @@ dependencies:
   get: 4.6.5
   flutter: 
     sdk: flutter
+  flutter_screenutil: ^5.8.4
 
 dev_dependencies: 
   flutter_lints: ^2.0.0
@@ -17,5 +18,8 @@ dev_dependencies:
     sdk: flutter
 
 flutter: 
+  assets:
+    - assets/
+    - assets/images/fdevs_assets/
   uses-material-design: true
 
